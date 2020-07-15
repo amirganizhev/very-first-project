@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"> <!--кодировка-->
+  <title>Сайт на bootstrap</title> <!--название сайта-->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!--мета тег для того чтобы сайт был адаптивныйм для мобильных браузеров-->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> <!--подключение bootstrap CSS-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><!--подключение jQuery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><!--подключение Popper.js-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script><!--подключение JS-->
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-default bg-dark"><!--Создание адаптивного меню-->
+  <a class="navbar-brand" href="#">Общежитие</a>
+
+  <div>
+    <ul class="navbar-nav">
+      <li class="active">
+        <button class="btn btn-dark">Главная</button>
+      </li>
+      <li>
+        <button class="btn btn-dark">О нас</button>
+      </li>
+      <li>
+        <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Контакты<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">880005553535</a></li>
+          <li><a href="#">id3445567389</a></li>
+          <li><a href="#">@mail.darkv</a></li>
+        </div>
+      </li>
+      <li>
+        <a class="btn btn-light" href="http://www.rgups.ru/" role="button">Сайт РГУПС</a>
+      </li>
+    </ul>
+  </div>
+</nav><!--Конец адаптивного меню-->
+
+<p></p>
+
+<div class="container"><!--Создание контейнера определение-->
+  <div class="col-sm-12 col-md-12 col-lg-12 bg-light">
+            <h1>Определение</h1>
+            <p>Место временного проживания для приезжих студентов и учащихся на время учёбы,
+              сезонных рабочих на время работы, службы или ставшее постоянным для работников учреждения.
+              Соответственно, следует различать студенческие и рабочие общежития. Жилые помещения в общежитиях
+              предоставляются из расчёта не менее шести квадратных метров жилой площади на одного человека. Согласно
+              этому нормативу в одной комнате могут проживать несколько человек. Уровень комфорта в общежитии обычно
+              довольно низкий. Бывают «холостяцкие» общежития, которые подразделяются на «мужские» и «женские», а также
+              «малосемейные общежития». В Средние века общежития при университетах для бедных студентов (а в России — при
+              духовных училищах и семинариях до 1917 года) назывались бурсой. Общежитие для студентов университетов может
+              находиться в здании ВУЗа (крайне редко) или в университетском комплексе. Например, главное здание МГУ включает
+              в себя учебный корпус, а также общежития для студентов старших курсов и аспирантов.</p>
+              <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5" class="btn btn-info" role="button">Узнать больше</a>
+  </div>
+</body>
+</div>
+<p> </p>
+
+<div class="row col-sm-12 col-md-12 col-lg-12"><!--Создание контейнеров всех общежитий-->
+
+  <div class="col-sm-4 col-md-4 col-lg-4"><!--Контейнер общежития №1-->
+    <h1>Общежитие №1</h1>
+    <img src="https://pp.userapi.com/c851016/v851016736/12f7af/-1zwYNy1JjA.jpg" class="rounded float-lef" alt="Общежитие №1">
+    <p>Адрес: пр. Ленина, 44 корпус 3, Ростов-на-Дону, Ростовская обл., 344038</p>
+    <a href="https://www.google.com/search?newwindow=1&tbm=lcl&ei=kNrtXJ-QBsGvrgSOqrqABQ&q=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+1+%D1%80%D0%B3%D1%83%D0%BF%D1%81&oq=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+1+%D1%80%D0%B3%D1%83%D0%BF%D1%81&gs_l=psy-ab.1.0.35i39k1.235846.236289.0.238000.2.2.0.0.0.0.130.228.1j1.2.0....0...1c.1.64.psy-ab..0.2.227...38j0i7i30k1j0i30k1j0i5i30k1j0i8i30k1.0.BBfGCDlMWWA" class="btn btn-info" role="button">Посмотреть на карте</a>
+  </div>
+
+  <div class="col-sm-4 col-md-4 col-lg-4"><!--Контейнер общежития №2-->
+    <h1>Общежитие №2</h1>
+    <img src="https://pp.userapi.com/c851016/v851016736/12f7b6/F3gOFpUSjsY.jpg" class="rounded float-centr" alt="Общежитие №2">
+    <p>Адрес: ул. Ларина, 2 корпус 1, Ростов-на-Дону, Ростовская обл., 344079</p>
+    <a href="https://www.google.com/search?newwindow=1&tbm=lcl&ei=ftvtXKn5KcWFk74P9qS94AI&q=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+2+%D1%80%D0%B3%D1%83%D0%BF%D1%81&oq=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+2+%D1%80%D0%B3%D1%83%D0%BF%D1%81&gs_l=psy-ab.3..35i39k1j0i13k1j0i8i30k1.59635.60008.0.61388.2.2.0.0.0.0.102.186.1j1.2.0....0...1c.1.64.psy-ab..0.2.185...38j0i7i30k1j0i30k1j0i5i30k1.0.iLLvOJmJ1Hs" class="btn btn-info" role="button">Посмотреть на карте</a>
+  </div>
+
+  <div class="col-sm-4 col-md-4 col-lg-4"><!--Контейнер общежития №3-->
+    <h1>Общежитие №3</h1>
+    <img src="https://pp.userapi.com/c851016/v851016736/12f7bd/Rir11kA8HSk.jpg" alt="Общежитие №3">
+    <p>Адрес: ул. Ларина, 2 корпус 2, Ростов-на-Дону, Ростовская обл., 344079</p>
+    <a href="https://www.google.com/search?newwindow=1&tbm=lcl&ei=vNvtXI6WNc3G6QSmwKKABA&q=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+3+%D1%80%D0%B3%D1%83%D0%BF%D1%81&oq=%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D0%B5+3+%D1%80%D0%B3%D1%83%D0%BF%D1%81&gs_l=psy-ab.3..35i39k1j0i13i30k1j0i8i13i30k1l2.20977.21165.0.23010.2.2.0.0.0.0.89.167.2.2.0....0...1c.1.64.psy-ab..0.2.166...38j0i7i30k1j0i30k1j0i5i30k1j0i8i30k1.0.oQcb-2w-DpI#rlfi=hd:;si:11646579472143885701;mv:!1m2!1d47.251996977319024!2d39.69964414922812!2m2!1d47.25163702268097!2d39.69911385077187!3m12!1m3!1d258.30149954817233!2d39.699379!3d47.251816999999996!2m3!1f0!2f0!3f0!3m2!1i1116!2i586!4f13.1" class="btn btn-info" role="button">Посмотреть на карте</a>
+  </div>
+
+</div>
+
+</body>
+</html>
